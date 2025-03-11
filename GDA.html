@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/server_or_backend" method="POST"></form>
+    <div style="display: flex;flex-direction: column;"></div>
+      <br>
+      <br>
+
+    <!-- Text input -->
+    <fieldset>
+        <legend>Personal Information</legend>
+        <label for="fname">First Name:</label>
+        <input type="text" id="fname" name="fname" placeholder="Enter your name">
+
+        <label for="1name">Last Name</label>
+        <input type="text" id="1name" name="1name">
+      <br><br>
+
+
+    <!-- Number Input -->
+    <label for="age" > Age:</label>
+    <input type="number" id="age" name="age"><br><br>
+
+
+    <!-- Password Input -->
+    <label for="password" > Password:</label>
+    <input type="password" id="password" name="password"><br><br>
+
+
+    <!-- Email Input -->
+    <label for="email" > Email:</label>
+    <input type="email" id="email" name="email"><br><br>
+
+
+    <!-- Radio Buttons -->
+    <label>Gender:</label>
+    <input type="radio" id="male" name="gender" value="male">
+    <label for="male">Male</label>
+    
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">Female</label><br><br>
+
+
+    <!-- Checkboxes -->
+    <label>Hobbies:</label>
+    <input type="checkbox" id="reading" name="hobbies" value="reading">
+    <label for="reading">Reading</label>
+
+    <input type="checkbox" id="gaming" name="hobbies" value="gaming">
+    <label for="gaming">Gaming</label><br><br>
+
+    <!-- Dropdown Menu-->
+     <label>Country:</label>
+     <select id="country" name="country">
+        <option value="usa">USA</option>
+        <option value="ghana">Ghana</option>
+        <option value="canada">Canada</option>
+        <option value="nigeria">Nigeria</option>
+     </select><br><br>
+
+
+     <!--Date Input-->
+     <label for="dob">Date of Birth:</label>
+     <input type="date" id="dob" name="dob"><br><br>
+
+
+     <!--Submit Button-->
+     <input type="submit" value="Submit">
+     </fieldset>
+    </form>
+</body>
+</html>
