@@ -3,33 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Personal Information Survey</title>
+    <link rel="stylesheet" href="Style.css">
 </head>
 <body>
-    <form action="/server_or_backend" method="POST"></form>
-    <div style="display: flex;flex-direction: column;"></div>
-      <br>
-      <br>
+    <div class="container">
+      <h1>Personal Information</h1>
+      <form action="#" method="post">
+        <br>
+
 
     <!-- Text input -->
-    <fieldset>
-        <legend>Personal Information</legend>
         <label for="fname">First Name:</label>
-        <input type="text" id="fname" name="fname" placeholder="Enter your name">
-
+        <input type="text" id="fname" name="fname" placeholder="Your first name"required>
         <label for="1name">Last Name</label>
-        <input type="text" id="1name" name="1name">
+        <input type="text" id="1name" name="1name" placeholder="Surname"required>
       <br><br>
 
 
     <!-- Number Input -->
     <label for="age" > Age:</label>
-    <input type="number" id="age" name="age"><br><br>
+    <input type="number" id="age" name="age" placeholder="Your age"><br><br>
 
 
     <!-- Password Input -->
     <label for="password" > Password:</label>
-    <input type="password" id="password" name="password"><br><br>
+    <input type="password" id="password" name="password" placeholder="Less than 12 characters"><br><br>
 
 
     <!-- Email Input -->
@@ -37,13 +36,21 @@
     <input type="email" id="email" name="email"><br><br>
 
 
+    <!--Address Input-->
+    <label for="address">Address</label>
+    <textarea id="address" name="address" rows="2" placeholder="Your home address"></textarea>
+
+
     <!-- Radio Buttons -->
+     <br><br>
     <label>Gender:</label>
     <input type="radio" id="male" name="gender" value="male">
-    <label for="male">Male</label>
+    <label class="inline-label"
+     for="male">Male</label>
     
     <input type="radio" id="female" name="gender" value="female">
-    <label for="female">Female</label><br><br>
+    <label class="inline-label"
+     for="female">Female</label><br><br>
 
 
     <!-- Checkboxes -->
@@ -71,7 +78,9 @@
 
      <!--Submit Button-->
      <input type="submit" value="Submit">
-     </fieldset>
+     
+
     </form>
+    </div>
 </body>
 </html>
