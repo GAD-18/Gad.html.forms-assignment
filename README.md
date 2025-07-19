@@ -4,7 +4,7 @@
 A responsive HTML form collecting personal information with validation
 
 ## 🌐 Live Demo
-[View Live Form](https://GAD-18.github.io/forms-assignment/GDA.html)  
+[View Live Form](https://GAD-18.github.io/forms-assignment/GAD.html.forms-assignment)  
 (GitHub Pages link - enable in repository settings)
 
 ## 🛠 Project Details
